@@ -1,0 +1,75 @@
+body {
+  background-color: grey;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.name{
+font-size: 2rem;
+padding: none;
+margin: 5px auto 5px auto;
+font-style: oblique;
+font-family: serif;
+}
+
+.frame{
+background-color: white;
+}
+
+canvas {
+  border: 15px double black;
+}
+.clear{
+height: 10px;
+}
+.toolbox {
+  background-color: black;
+  border: 5px solid black;
+  display: flex;
+  width: 788px;
+  height: 20px;
+  padding: 1rem;
+}
+
+.toolbox > * {
+  background-color: grey;
+  color: white;
+  border: 2px double white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  height: 20px;
+  width: 20px;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+.toolbox > *:nth-child(2){
+font-size: 1.2rem;
+height: 10px;
+}
+
+.toolbox > *:nth-child(4){
+all:unset;
+font-family:sans-serif;
+font-size: 1.2rem;
+margin-right: -90px;
+margin-left: 70px;
+
+color: white;
+}
+.toolbox > *:nth-child(5){
+margin-left: 100px;
+height: 50px;
+width: 50px;
+margin-top: -10px;
+}
+.toolbox > *:nth-child(6){
+  width: 70px;
+  height: 30px;
+  margin-left: auto;
+}
